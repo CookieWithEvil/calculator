@@ -1,0 +1,101 @@
+body{
+  font-family: Quantico;
+  background: url("https://diddlybop.ru/wp-content/uploads/2017/04/gVLYniITtyA.jpg") no-repeat;
+  background-size: 100% 120%;
+}
+button{outline: none;}
+#corpus{
+  margin: 10% auto;
+  width: 360px;
+  border: 3px solid Gray;
+  border-radius: 20px;
+  box-shadow: inset -3px -3px 7px AntiqueWhite;
+}
+/*DISPLAY*/
+.display{
+  width: 90%;
+  border: 1px outset gray;
+  margin: 20px auto;
+  background: MediumSeaGreen;
+  border-radius: 10px;
+  text-align: right;
+  box-shadow: inset 2px -1px 5px DarkSlateGray;
+  vertical-align: middle;
+}
+#small-line{
+  margin: 0 auto;
+  padding-right: 5px;
+  height: 20px;
+  color: #046541;
+}
+#main-line{
+  margin: 0 auto;
+  padding-right: 5px;
+  height: 40px;
+  color: LavenderBlush;
+  font-size: 30px;
+}
+/*BUTTONS*/
+#buttons{
+  min-height: 355px;
+  width: 90%;
+  margin: 0 auto 15px;
+  box-shadow: inset 1px 1px 2px DarkSlateGray;
+  border: 1px outset siver;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.5);
+}
+#buttons #numbers,#buttons #horiz,#buttons #vert{
+  dispaly: inline-block;
+}
+#buttons #horiz{
+  margin: 0 0 0 -10px;
+  padding: 10px auto;
+  text-align: center;
+}
+#buttons #numbers{
+  float: left;
+  width: 79.5%;
+}
+#buttons #vert{
+  float: right;
+  width: 20.5%;
+}
+#buttons #numbers button,
+#buttons #horiz button,
+#buttons #vert button{
+  height: 50px;
+  width: 50px;
+  color: Seashell;
+  font-size: 100%;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: inset -1px -1px 5px Seashell;
+}
+#buttons #numbers button{
+  margin: 10px 12px;
+  background: RosyBrown;
+  border: 2px outset RosyBrown;
+}
+#buttons #numbers button:nth-child(4n+1){
+  margin-left: 20px;
+}
+#buttons #numbers button:last-child{
+  width: 50%;
+}
+#buttons #horiz button{
+  margin: 10px 12px;
+  background: SeaGreen;
+  border: 1px outset SeaGreen;
+}
+#buttons #horiz button:first-child{
+  margin: 0 10px 0 25px;
+}
+#buttons #vert button{
+  margin: 10px 10px 10px 0;
+  background: SeaGreen;
+  border: 1px outset SeaGreen;
+}
+#buttons #vert #enter{
+  height: 120px;
+}

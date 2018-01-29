@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>	
+<div id="corpus">
+  <div class="display">
+    <div id="small-line"></div>
+    <div id="main-line"></div>
+  </div>
+  <div id="buttons">
+    <div id="horiz">
+      <button onclick="allClear()">AC</button>
+      <button onclick="clearElement()">CE</button>
+      <button onclick="operation('/')">%</button>
+      <button onclick="operation('x')">X</button>
+    </div>
+    <div id="numbers">
+      <button onclick="writeNum(7)">7</button>
+      <button onclick="writeNum(8)">8</button>
+      <button onclick="writeNum(9)">9</button><br />
+      <button onclick="writeNum(4)">4</button>
+      <button onclick="writeNum(5)">5</button>
+      <button onclick="writeNum(6)">6</button><br />
+      <button onclick="writeNum(1)">1</button>
+      <button onclick="writeNum(2)">2</button>
+      <button onclick="writeNum(3)">3</button><br />
+      <button onclick="writeNum('.')">.</button>
+      <button onclick="writeNum(0)">0</button>
+    </div>    
+    <div id="vert">
+      <button onclick="operation('+')">+</button><br />
+      <button onclick="operation('-')">-</button><br />
+      <button id="enter" onclick="operation('=')">=</button><br />
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
